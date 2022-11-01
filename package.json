@@ -1,0 +1,29 @@
+{
+  "name": "dimon",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "export": "next export",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p 2712--",
+    "heroku-postbuild": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "9.3.2",
+    "node-sass": "^6.0.1",
+    "react": "16.13.1",
+    "react-countup": "^4.3.3",
+    "react-dom": "16.13.1",
+    "react-html-parser": "^2.0.2",
+    "react-id-swiper": "^3.0.0",
+    "react-modal-video": "^1.2.8",
+    "react-visibility-sensor": "^5.1.1",
+    "swiper": "^5.3.6"
+  },
+  "devDependencies": {
+    "url-loader": "^4.0.0"
+  }
+}
